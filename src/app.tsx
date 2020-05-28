@@ -1,7 +1,7 @@
 import Taro, { Component, Config } from '@tarojs/taro'
 import { Provider } from '@tarojs/redux'
 
-import Index from './pages/index'
+import Index from './pages/index/index'
 
 import configStore from './store'
 
@@ -17,6 +17,8 @@ const store = configStore()
 
 class App extends Component {
 
+  componentDidMount () {}
+
   /**
    * 指定config的类型声明为: Taro.Config
    *
@@ -26,7 +28,8 @@ class App extends Component {
    */
   config: Config = {
     pages: [
-      'pages/index/index'
+      'pages/index/index',
+      'pages/demo/index',
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -35,8 +38,6 @@ class App extends Component {
       navigationBarTextStyle: 'black'
     }
   }
-
-  componentDidMount () {}
 
   componentDidShow () {}
 

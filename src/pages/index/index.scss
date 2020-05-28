@@ -1,4 +1,25 @@
-.index {
-  flex-direction: column;
-  width: 100%;
+.page {
+  position: relative;
+  background-color: #FDFDFD;
+
+  view,
+  div {
+    box-sizing: border-box;
+  }
+}
+
+.page-index {
+  padding: 60px 0 30px;
+
+  .logo {
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 0;
+    text-align: center;
+
+    .img {
+      width: 264px;
+      height: 180px;
+    }
+  }
 }
