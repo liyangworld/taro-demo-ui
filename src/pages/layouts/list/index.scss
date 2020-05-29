@@ -1,18 +1,5 @@
-.widget-panel {
-  background-color: #fff;
-  .widget-panel-header {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    .widget-header-line {
-      width: 2px;
-      height: 30px;
-      background-color: #157EFF;
-      margin-right: 20px;
-    }
-    .widget-header-title {
-      font-size: 24px;
-      font-weight: bold;
-    }
+.widget-page {
+  .content {
+    padding-bottom: 40px;
   }
 }

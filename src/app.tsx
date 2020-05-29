@@ -32,7 +32,8 @@ class App extends Component {
       'pages/demo/counter/index',
       'pages/panel/index',
       // 布局
-      'pages/layouts/list/index'
+      'pages/layouts/list/index',
+      'pages/layouts/card/index',
     ],
     window: {
       backgroundTextStyle: 'light',

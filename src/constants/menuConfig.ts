@@ -1,7 +1,7 @@
 /*
  * @Author: liyang
  * @Date: 2020-05-29 11:28:51
- * @LastEditTime: 2020-05-29 14:47:43
+ * @LastEditTime: 2020-05-29 18:12:43
  * @LastEditors: liyang
  * @Description: 各项菜单与对应页面配置
  */
@@ -38,6 +38,11 @@
         nameEn: 'List',
         nameCh: '列表',
         path: '/pages/layouts/list/index'
+      },
+      {
+        nameEn: 'Card',
+        nameCh: '卡片',
+        path: '/pages/layouts/card/index'
       }
     ]
   }
