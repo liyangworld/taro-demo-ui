@@ -1,3 +1,5 @@
+const path = require('path') // eslint-disable-line
+
 const config = {
   projectName: 'taro-demo-ui',
   date: '2020-5-28',
@@ -9,6 +11,10 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
+  alias: {
+    '@/plugins': path.resolve(__dirname, '..', 'src/plugins'),
+    '@/constants': path.resolve(__dirname, '..', 'src/constants'),
+  },
   babel: {
     sourceMap: true,
     presets: [
