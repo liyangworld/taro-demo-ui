@@ -29,7 +29,10 @@ class App extends Component {
   config: Config = {
     pages: [
       'pages/index/index',
-      'pages/demo/index',
+      'pages/demo/counter/index',
+      'pages/panel/index',
+      // 布局
+      'pages/layouts/list/index'
     ],
     window: {
       backgroundTextStyle: 'light',

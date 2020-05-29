@@ -14,6 +14,8 @@ const config = {
   alias: {
     '@/plugins': path.resolve(__dirname, '..', 'src/plugins'),
     '@/constants': path.resolve(__dirname, '..', 'src/constants'),
+    '@/utils': path.resolve(__dirname, '..', 'src/utils'),
+    '@/components': path.resolve(__dirname, '..', 'src/components'),
   },
   babel: {
     sourceMap: true,

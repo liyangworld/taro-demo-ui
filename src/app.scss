@@ -1,1 +1,5 @@
-@import './plugins/taro-ui/index.scss'
+@import './plugins/taro-ui/index.scss';
+
+html, body {
+  font-size: 14px;
+}

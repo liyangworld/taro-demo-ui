@@ -1,6 +1,6 @@
 .page {
   position: relative;
-  background-color: #FDFDFD;
+  background-color: #FAFAFA;
 
   view,
   div {
@@ -14,12 +14,48 @@
   .logo {
     margin: 0 auto;
     margin-top: 60px;
-    font-size: 0;
     text-align: center;
 
     .img {
       width: 264px;
       height: 180px;
     }
+    .logo-title {
+      font-size: 36px;
+    }
   }
+
+  .menu-list-wrap {
+    padding: 80px 40px;
+
+    .menu-item-wrap {
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .menu-item-content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 0 20px;
+
+        .title {
+          font-size: 18px;
+          font-weight: bold;
+        }
+      }
+      .menu-item-icon {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #157EFF;
+      }
+    }
+  }
+
 }
