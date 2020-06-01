@@ -1,7 +1,7 @@
 /*
  * @Author: liyang
  * @Date: 2020-05-29 11:28:51
- * @LastEditTime: 2020-05-29 18:12:43
+ * @LastEditTime: 2020-06-01 10:28:25
  * @LastEditors: liyang
  * @Description: 各项菜单与对应页面配置
  */
@@ -27,12 +27,12 @@
       {
         nameEn: 'Flex',
         nameCh: '弹性布局',
-        path: ''
+        path: '/pages/layouts/flex/index'
       },
       {
         nameEn: 'Grid',
         nameCh: '栅格',
-        path: ''
+        path: '/pages/layouts/grid/index'
       },
       {
         nameEn: 'List',

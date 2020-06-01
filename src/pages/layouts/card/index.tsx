@@ -10,7 +10,7 @@ import './index.scss'
 
 export default function Card() {
   return (
-    <View className='widget-page'>
+    <View className='widget-page widget-card'>
       <WidgetPageHeader title='Card 卡片' />
       <View className='content'>
         <WidgetPagePanel title='基本用法'>

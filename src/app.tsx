@@ -34,6 +34,8 @@ class App extends Component {
       // 布局
       'pages/layouts/list/index',
       'pages/layouts/card/index',
+      'pages/layouts/flex/index',
+      'pages/layouts/grid/index',
     ],
     window: {
       backgroundTextStyle: 'light',

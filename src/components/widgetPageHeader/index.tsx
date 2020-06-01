@@ -8,6 +8,14 @@ export default function WidgetPageHeader(props) {
     <View className='widget-header'>
       <Text className='widget-header-title'>{props.title}</Text>
       <View className='widget-header-line'></View>
+      {
+        !!props.desc && (
+          <View className='widget-header-desc'>
+            <Text>{props.desc}</Text>
+          </View>
+        )
+      }
+
     </View>
   )
 }

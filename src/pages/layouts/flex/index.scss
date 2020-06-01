@@ -1,0 +1,17 @@
+.widget-flex {
+  .at-row {
+    margin-bottom: 20px;
+  }
+  .at-col {
+    // height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    &:nth-child(odd) {
+      background-color: #78a4f4;
+    }
+    &:nth-child(even) {
+      background-color: #93b6f6;
+    }
+  }
+}
