@@ -1,7 +1,7 @@
 /*
  * @Author: liyang
  * @Date: 2020-05-29 11:28:51
- * @LastEditTime: 2020-06-01 10:28:25
+ * @LastEditTime: 2020-06-02 11:45:58
  * @LastEditors: liyang
  * @Description: 各项菜单与对应页面配置
  */
@@ -12,11 +12,26 @@
      title: '基础',
      desc: '包含颜色、文本、图标等',
      children: [
-       {
-         nameEn: 'Color',
-         nameCh: '颜色',
-         path: ''
-       }
+      {
+        nameEn: 'Color',
+        nameCh: '颜色',
+        path: ''
+      },
+      {
+        nameEn: 'Icon',
+        nameCh: '图标',
+        path: '/pages/basics/icon/index'
+      },
+      {
+        nameEn: 'Typo',
+        nameCh: '字体',
+        path: ''
+      },
+      {
+        nameEn: 'Button',
+        nameCh: '按钮',
+        path: ''
+      },
      ]
    },
    {
@@ -43,6 +58,16 @@
         nameEn: 'Card',
         nameCh: '卡片',
         path: '/pages/layouts/card/index'
+      },
+      {
+        nameEn: 'FloatLayout',
+        nameCh: '浮动弹层',
+        path: '/pages/layouts/floatLayout/index'
+      },
+      {
+        nameEn: 'Accordion',
+        nameCh: '手风琴',
+        path: '/pages/layouts/accordion/index'
       }
     ]
   }

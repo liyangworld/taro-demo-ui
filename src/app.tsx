@@ -31,11 +31,16 @@ class App extends Component {
       'pages/index/index',
       'pages/demo/counter/index',
       'pages/panel/index',
+      // 基础
+      'pages/basics/icon/index',
+
       // 布局
       'pages/layouts/list/index',
       'pages/layouts/card/index',
       'pages/layouts/flex/index',
       'pages/layouts/grid/index',
+      'pages/layouts/floatLayout/index',
+      'pages/layouts/accordion/index',
     ],
     window: {
       backgroundTextStyle: 'light',
