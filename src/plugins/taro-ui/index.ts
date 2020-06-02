@@ -24,5 +24,6 @@ export {
   AtProgress,
   AtToast,
   AtMessage,
+  AtSwipeAction,
 } from 'taro-ui'
 

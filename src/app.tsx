@@ -44,6 +44,7 @@ class App extends Component {
       'pages/actions/progress/index',
       'pages/actions/toast/index',
       'pages/actions/message/index',
+      'pages/actions/swipe-action/index',
 
       // 布局
       'pages/layouts/list/index',

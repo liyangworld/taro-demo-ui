@@ -112,6 +112,11 @@ import iconLayout from '../assets/img/icon-list-layout.png';
         nameCh: '消息通知',
         path: '/pages/actions/message/index'
       },
+      {
+        nameEn: 'SwipeAction',
+        nameCh: '滑动操作',
+        path: '/pages/actions/swipe-action/index'
+      },
      ]
   }
  ]
