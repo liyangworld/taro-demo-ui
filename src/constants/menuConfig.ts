@@ -1,21 +1,30 @@
 /*
  * @Author: liyang
  * @Date: 2020-05-29 11:28:51
- * @LastEditTime: 2020-06-02 11:45:58
+ * @LastEditTime: 2020-06-02 18:26:44
  * @LastEditors: liyang
  * @Description: 各项菜单与对应页面配置
  */
+
+import iconBasic from '../assets/img/icon-list-basic.png';
+import iconAction from '../assets/img/icon-list-action.png';
+import iconLayout from '../assets/img/icon-list-layout.png';
+// import iconForm from '../assets/img/icon-list-form.png';
+// import iconHOC from '../assets/img/icon-list-hoc.png';
+// import iconNavigation from '../assets/img/icon-list-navigation.png';
+// import iconView from '../assets/img/icon-list-view.png';
 
  export default [
    {
      type: 'basic',
      title: '基础',
      desc: '包含颜色、文本、图标等',
+     icon: iconBasic,
      children: [
       {
         nameEn: 'Color',
         nameCh: '颜色',
-        path: ''
+        path: '/pages/basics/color/index'
       },
       {
         nameEn: 'Icon',
@@ -25,12 +34,12 @@
       {
         nameEn: 'Typo',
         nameCh: '字体',
-        path: ''
+        path: '/pages/basics/typo/index'
       },
       {
         nameEn: 'Button',
         nameCh: '按钮',
-        path: ''
+        path: '/pages/basics/button/index'
       },
      ]
    },
@@ -38,6 +47,7 @@
     type: 'layout',
     title: '布局',
     desc: '包含列表、浮层、卡片等',
+    icon: iconLayout,
     children: [
       {
         nameEn: 'Flex',
@@ -70,5 +80,38 @@
         path: '/pages/layouts/accordion/index'
       }
     ]
+  },
+  {
+    type: 'action',
+     title: '操作反馈',
+     desc: '包含对话框、进度条、动作面板等',
+     icon: iconAction,
+     children: [
+      {
+        nameEn: 'ActionSheet',
+        nameCh: '动作面板',
+        path: '/pages/actions/action-sheet/index'
+      },
+      {
+        nameEn: 'ActivityIndicator',
+        nameCh: '活动指示器',
+        path: '/pages/actions/activity-indicator/index'
+      },
+      {
+        nameEn: 'Progress',
+        nameCh: '进度条',
+        path: '/pages/actions/progress/index'
+      },
+      {
+        nameEn: 'Toast',
+        nameCh: '轻提示',
+        path: '/pages/actions/toast/index'
+      },
+      {
+        nameEn: 'Message',
+        nameCh: '消息通知',
+        path: '/pages/actions/message/index'
+      },
+     ]
   }
  ]

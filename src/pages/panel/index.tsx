@@ -1,5 +1,5 @@
 import Taro from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
+import { View, Text, Image } from '@tarojs/components'
 
 import { AtList, AtListItem } from "@/plugins/taro-ui"
 
@@ -29,7 +29,9 @@ export default function Panel() {
   return (
     <View className='panel'>
       <View className='panel-header'>
-        <View className='icon-wrap'></View>
+        <View className='icon-wrap'>
+          <Image src={menuItem.icon} className='img' mode='widthFix' />
+        </View>
         <Text className='title'>{menuItem.title}</Text>
       </View>
       <View className='panel-content'>
@@ -51,4 +53,8 @@ export default function Panel() {
 
     </View>
   )
+}
+
+Panel.config = {
+  navigationBarTitleText: 'UI-组件'
 }

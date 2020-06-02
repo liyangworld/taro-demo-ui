@@ -15,4 +15,10 @@
       font-weight: bold;
     }
   }
+
+  &.widget-panel--pad {
+    .widget-panel-content {
+      padding: 0 20px;
+    }
+  }
 }

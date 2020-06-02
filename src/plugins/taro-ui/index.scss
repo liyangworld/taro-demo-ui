@@ -1,5 +1,13 @@
-@import "~taro-ui/dist/style/components/button.scss";
 @import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/loading.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/fab.scss";
+
+@import "~taro-ui/dist/style/components/action-sheet.scss";
+@import "~taro-ui/dist/style/components/activity-indicator.scss";
+@import "~taro-ui/dist/style/components/progress.scss";
+@import "~taro-ui/dist/style/components/toast.scss";
+@import "~taro-ui/dist/style/components/message.scss";
 
 @import "~taro-ui/dist/style/components/flex.scss";
 @import "~taro-ui/dist/style/components/list.scss";
@@ -7,3 +15,5 @@
 @import "~taro-ui/dist/style/components/grid.scss";
 @import "~taro-ui/dist/style/components/float-layout.scss";
 @import "~taro-ui/dist/style/components/accordion.scss";
+
+@import "~taro-ui/dist/style/components/switch.scss";

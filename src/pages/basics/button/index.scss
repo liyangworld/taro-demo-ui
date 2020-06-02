@@ -1,0 +1,19 @@
+.widget-button {
+  padding-bottom: 20px;
+  .panel-pad {
+    padding: 0 20px;
+  }
+
+  .panel-content {
+    .at-button {
+      margin-bottom: 20px;
+    }
+  }
+
+  .fab-demo-wrap {
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    z-index: 1100;
+  }
+}

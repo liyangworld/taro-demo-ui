@@ -31,8 +31,19 @@ class App extends Component {
       'pages/index/index',
       'pages/demo/counter/index',
       'pages/panel/index',
+
       // 基础
       'pages/basics/icon/index',
+      'pages/basics/typo/index',
+      'pages/basics/color/index',
+      'pages/basics/button/index',
+
+      // 操作反馈
+      'pages/actions/action-sheet/index',
+      'pages/actions/activity-indicator/index',
+      'pages/actions/progress/index',
+      'pages/actions/toast/index',
+      'pages/actions/message/index',
 
       // 布局
       'pages/layouts/list/index',

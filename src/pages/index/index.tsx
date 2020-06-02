@@ -2,7 +2,7 @@ import Taro from '@tarojs/taro'
 import { View, Text, Image } from '@tarojs/components'
 
 // import { AtButton } from "taro-ui"
-// import { AtButton } from "@/plugins/taro-ui"
+import { AtIcon } from "@/plugins/taro-ui"
 
 import menus from "@/constants/menuConfig";
 
@@ -27,12 +27,16 @@ export default function Index() {
           menus.map((menu, index) => {
             return (
               <View key={index} className='menu-item-wrap' onClick={()=>{goToPanel(index)}}>
-                <View className='menu-item-icon left'></View>
+                <View className='menu-item-icon left'>
+                  <Image src={menu.icon} className='img' mode='widthFix' />
+                </View>
                 <View className='menu-item-content'>
                   <Text className='title'>{menu.title}</Text>
                   <Text className='desc'>{menu.desc}</Text>
                 </View>
-                <View className='menu-item-icon right'></View>
+                <View className='menu-item-icon right'>
+                  <AtIcon value='chevron-right' size='16' color='#fff'></AtIcon>
+                </View>
               </View>
             )
           })
@@ -43,5 +47,5 @@ export default function Index() {
 }
 
 Index.config = {
-  navigationBarTitleText: '首页'
+  navigationBarTitleText: 'Taro-demo-ui 首页'
 }

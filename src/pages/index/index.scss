@@ -53,7 +53,21 @@
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        background-color: #157EFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &.left {
+          border: 1px solid #e5e5e5;
+          .img {
+            width: 28px;
+            height: 28px;
+          }
+        }
+        &.right {
+          background-color: #6190E8;
+          box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.11);
+        }
       }
     }
   }

@@ -1,0 +1,56 @@
+.widget-typo {
+  .t {
+    padding: 0 40px;
+  }
+  .t-head {
+    padding: 20px 32px;
+    color: #AFB9CC;
+    font-size: 28px;
+    border: 1PX solid #C4D9E7;
+    border-radius: 8px;
+  }
+  .t-body {
+
+    color: #354052;
+    font-size: 28px;
+
+    .at-row {
+      height: 80px;
+      margin-top: 20px;
+      align-items: center;
+
+      &:nth-child(2n+1) {
+        background-color: #FAFBFC;
+      }
+    }
+
+    .at-col {
+      &:nth-child(1) {
+        padding-left: 32px;
+      }
+      &.h0 {
+        font-size: 40px;
+      }
+
+      &.h1 {
+        font-size: 36px;
+      }
+
+      &.h2 {
+        font-size: 32px;
+      }
+
+      &.h3 {
+        font-size: 28px;
+      }
+
+      &.h4 {
+        font-size: 24px;
+      }
+
+      &.h5 {
+        font-size: 20px;
+      }
+    }
+  }
+}

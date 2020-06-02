@@ -5,7 +5,7 @@ import './index.scss'
 
 export default function WidgetPagePanel(props) {
   return (
-    <View className='widget-panel'>
+    <View className={'widget-panel' + (props.hasPad ? ' widget-panel--pad' : '')}>
       <View className='widget-panel-header'>
         <View className='widget-header-line'></View>
         <Text className='widget-header-title'>{props.title}</Text>
